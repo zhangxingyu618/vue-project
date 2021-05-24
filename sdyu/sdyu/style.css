@@ -1,0 +1,285 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    color: white;
+}
+
+.top {
+    width: 100%;
+    height: 140px;
+    background-color: #264F82;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* border: 1px solid red; */
+}
+
+.top-1 img {
+    position: relative;
+    bottom: 20px;
+    /* padding-bottom: 20px; */
+    /* height: 80px; */
+    width: 40%;
+}
+
+.top-1 {
+
+    padding-left: 13%;
+    width: 70%;
+    display: flex;
+    align-items: center;
+}
+
+.topic {
+    position: relative;
+    bottom: 10px;
+    color: white;
+    font-size: 18px;
+}
+
+.top-2 {
+    position: relative;
+    bottom: 10px;
+    display: flex;
+    width: 30%;
+    /* align-items: center; */
+    padding-right: 13%;
+    font-size: 13px;
+}
+
+.top-2 input {
+    height: 20px;
+    width: 35%;
+}
+
+nav {
+    height: 38px;
+    width: 100%;
+    background-color: rgb(2, 68, 128);
+    position: absolute;
+    top: 100px;
+}
+
+.nav {
+    width: 900px;
+    margin: 0 auto;
+}
+
+.nav ul {
+    /* float: left; */
+    list-style-type: none;
+    font-size: 20px;
+}
+
+.nav ul li {
+    float: left;
+    position: relative;
+    width: 150px;
+    text-align: center;
+}
+
+.nav ul li a {
+    line-height: 38px;
+    display: block;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    transition-duration: 300ms;
+}
+
+.nav ul li a:hover {
+    background-color: rgb(1, 87, 167);
+    /*border-top:10px solid #0F7940;*/
+}
+
+
+.nav ul li ul {
+    display: none;
+    margin-top: 8px;
+    z-index: 999;
+}
+
+.nav ul li a:hover.one_list {
+    display: block;
+    visibility: visible;
+}
+
+.nav ul li:hover ul {
+    display: block;
+    position: absolute;
+    top: 30px;
+    left: 0;
+    width: 105px;
+    line-height: 25px;
+}
+
+.nav ul li:hover ul li a {
+    display: block;
+    background: rgb(2, 68, 128);
+    color: rgb(255, 255, 255);
+}
+
+.nav ul li:hover ul li a:hover {
+    background: rgb(1, 87, 167);
+    color: rgb(255, 255, 255);
+}
+
+.main {
+    position: relative;
+    height: 500px;
+    /* border: 1px solid red; */
+    height: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.swiper-container {
+    width: 100%;
+    height: 300px;
+}
+
+.swiper-slide img {
+    height: 100%;
+    width: 100%;
+}
+
+.mybox-1 {
+    float: left;
+    width: 50%;
+    height: 470px;
+    /* background-color: violet; */
+    /* border-left: 1px solid red; */
+}
+
+
+
+.mybox-1 .myimg {
+    width: 100%;
+    height: 190px;
+}
+
+.mybox-1 p {
+    margin-top: .5rem;
+}
+
+.news {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.news p {
+    margin-bottom: 5px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.news p:hover {
+    text-decoration: underline;
+}
+
+
+.news .title {
+    width: 80%;
+    white-space: nowrap;
+    /*一行显示*/
+    overflow: hidden;
+    /*超出部分隐藏*/
+    text-overflow: ellipsis;
+    /*用...代替超出部分*/
+}
+
+.news .time {
+    color: dimgray;
+}
+
+.mybox-2 {
+    float: left;
+    width: 50%;
+    height: 355px;
+    color: rgb(255, 255, 255);
+    /* background-color: aquamarine; */
+
+}
+
+.mybox-2 p:hover {
+    text-decoration: underline;
+
+}
+
+.box {
+    float: left;
+    width: 50%;
+    height: 50%;
+    border: 3px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    cursor: pointer;
+}
+
+.tabel {
+    width: 100%;
+    height: 33.3%;
+    padding-left: 75px;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+
+}
+
+.tabel img {
+    float: left;
+    width: 50px;
+    height: 50px;
+    background-color: antiquewhite;
+    border-radius: 10%;
+    cursor: pointer;
+}
+
+.tabel p {
+    padding-left: 20px;
+    color: #000;
+    float: left;
+    cursor: pointer;
+}
+
+.foot {
+    float: left;
+    width: 100%;
+    height: 50px;
+    background-color: #00437F;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    color: white;
+}
+
+.foot select {
+    padding-right: 60px;
+    margin-left: 10px;
+}
+
+.foot-main {
+    width: 80%;
+    display: flex;
+    align-items: center;
+}
+
+.end {
+    float: left;
+    width: 100%;
+    height: 100px;
+    background-color: #255085;
+}
